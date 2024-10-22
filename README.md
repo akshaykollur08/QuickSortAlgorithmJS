@@ -27,8 +27,5 @@ For users, the project is relatively simple to understand. It utilizes VSCode an
 ## Testing
 I developed the testing drivers file to be easily understandable. There are multiple functions that run when you hit "run code". It will activate the testing and various test cases will be seen in the console and you may be able to trace them easily. There are 7 test cases that implement and test various different cases of input for the Quick Sort algorithm.
 
-## Problem 2 Find a way to compute how much time your code takes to execute. Generate an array of size 1000
-## that contains random values, run your code on that array, and compute the time it takes the code to execute.
+## Problem 2 Find a way to compute how much time your code takes to execute. Generate an array of size 1000 that contains random values, run your code on that array, and compute the time it takes the code to execute.
 I found a way by making a function that generates an array of a specified size and then returns it. I then called the console.time function to start a timer, then I called the quickSort function on that array. Then I called the console.timeEnd function and it returned me the time it took for the array to sort. I computed the time for execution was roughly 0.2ms to 0.3ms.
-
-#
